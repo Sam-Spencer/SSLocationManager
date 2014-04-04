@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99C098E318EF54E000F69923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C098E218EF54E000F69923 /* Foundation.framework */; };
+		99C098E518EF54E000F69923 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C098E418EF54E000F69923 /* CoreGraphics.framework */; };
+		99C098E718EF54E000F69923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C098E618EF54E000F69923 /* UIKit.framework */; };
+		99C098ED18EF54E000F69923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C098EB18EF54E000F69923 /* InfoPlist.strings */; };
+		99C098EF18EF54E000F69923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C098EE18EF54E000F69923 /* main.m */; };
+		99C098F318EF54E000F69923 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C098F218EF54E000F69923 /* SSAppDelegate.m */; };
+		99C098F618EF54E000F69923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C098F418EF54E000F69923 /* Main.storyboard */; };
+		99C098F918EF54E000F69923 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C098F818EF54E000F69923 /* SSViewController.m */; };
+		99C098FB18EF54E000F69923 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C098FA18EF54E000F69923 /* Images.xcassets */; };
+		99C0990218EF54E000F69923 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C0990118EF54E000F69923 /* XCTest.framework */; };
+		99C0990318EF54E000F69923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C098E218EF54E000F69923 /* Foundation.framework */; };
+		99C0990418EF54E000F69923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C098E618EF54E000F69923 /* UIKit.framework */; };
+		99C0990C18EF54E000F69923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C0990A18EF54E000F69923 /* InfoPlist.strings */; };
+		99C0990E18EF54E000F69923 /* SSLocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0990D18EF54E000F69923 /* SSLocationManagerTests.m */; };
+		99C0991818EF54ED00F69923 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C0991718EF54ED00F69923 /* CoreLocation.framework */; };
+		99C0991F18EF57EC00F69923 /* CLLocationManager+SSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0991E18EF57EC00F69923 /* CLLocationManager+SSLocation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C0990518EF54E000F69923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C098D718EF54E000F69923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C098DE18EF54E000F69923;
+			remoteInfo = SSLocationManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99C098DF18EF54E000F69923 /* SSLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C098E218EF54E000F69923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99C098E418EF54E000F69923 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99C098E618EF54E000F69923 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99C098EA18EF54E000F69923 /* SSLocationManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSLocationManager-Info.plist"; sourceTree = "<group>"; };
+		99C098EC18EF54E000F69923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C098EE18EF54E000F69923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99C098F018EF54E000F69923 /* SSLocationManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLocationManager-Prefix.pch"; sourceTree = "<group>"; };
+		99C098F118EF54E000F69923 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		99C098F218EF54E000F69923 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		99C098F518EF54E000F69923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C098F718EF54E000F69923 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		99C098F818EF54E000F69923 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		99C098FA18EF54E000F69923 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99C0990018EF54E000F69923 /* SSLocationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLocationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C0990118EF54E000F69923 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99C0990918EF54E000F69923 /* SSLocationManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSLocationManagerTests-Info.plist"; sourceTree = "<group>"; };
+		99C0990B18EF54E000F69923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C0990D18EF54E000F69923 /* SSLocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLocationManagerTests.m; sourceTree = "<group>"; };
+		99C0991718EF54ED00F69923 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		99C0991D18EF57EC00F69923 /* CLLocationManager+SSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocationManager+SSLocation.h"; path = "../SSLocationManager/CLLocationManager+SSLocation.h"; sourceTree = "<group>"; };
+		99C0991E18EF57EC00F69923 /* CLLocationManager+SSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+SSLocation.m"; path = "../SSLocationManager/CLLocationManager+SSLocation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C098DC18EF54E000F69923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0991818EF54ED00F69923 /* CoreLocation.framework in Frameworks */,
+				99C098E518EF54E000F69923 /* CoreGraphics.framework in Frameworks */,
+				99C098E718EF54E000F69923 /* UIKit.framework in Frameworks */,
+				99C098E318EF54E000F69923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C098FD18EF54E000F69923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0990218EF54E000F69923 /* XCTest.framework in Frameworks */,
+				99C0990418EF54E000F69923 /* UIKit.framework in Frameworks */,
+				99C0990318EF54E000F69923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C098D618EF54E000F69923 = {
+			isa = PBXGroup;
+			children = (
+				99C0991918EF550F00F69923 /* SSLocationManager */,
+				99C098E818EF54E000F69923 /* SSLocationManager Demo */,
+				99C0990718EF54E000F69923 /* SSLocationManager Tests */,
+				99C098E118EF54E000F69923 /* Frameworks */,
+				99C098E018EF54E000F69923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C098E018EF54E000F69923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C098DF18EF54E000F69923 /* SSLocationManager.app */,
+				99C0990018EF54E000F69923 /* SSLocationManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C098E118EF54E000F69923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C0991718EF54ED00F69923 /* CoreLocation.framework */,
+				99C098E218EF54E000F69923 /* Foundation.framework */,
+				99C098E418EF54E000F69923 /* CoreGraphics.framework */,
+				99C098E618EF54E000F69923 /* UIKit.framework */,
+				99C0990118EF54E000F69923 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99C098E818EF54E000F69923 /* SSLocationManager Demo */ = {
+			isa = PBXGroup;
+			children = (
+				99C098F118EF54E000F69923 /* SSAppDelegate.h */,
+				99C098F218EF54E000F69923 /* SSAppDelegate.m */,
+				99C098F418EF54E000F69923 /* Main.storyboard */,
+				99C098F718EF54E000F69923 /* SSViewController.h */,
+				99C098F818EF54E000F69923 /* SSViewController.m */,
+				99C098FA18EF54E000F69923 /* Images.xcassets */,
+				99C098E918EF54E000F69923 /* Supporting Files */,
+			);
+			name = "SSLocationManager Demo";
+			path = SSLocationManager;
+			sourceTree = "<group>";
+		};
+		99C098E918EF54E000F69923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C098EA18EF54E000F69923 /* SSLocationManager-Info.plist */,
+				99C098EB18EF54E000F69923 /* InfoPlist.strings */,
+				99C098EE18EF54E000F69923 /* main.m */,
+				99C098F018EF54E000F69923 /* SSLocationManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C0990718EF54E000F69923 /* SSLocationManager Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99C0990D18EF54E000F69923 /* SSLocationManagerTests.m */,
+				99C0990818EF54E000F69923 /* Supporting Files */,
+			);
+			name = "SSLocationManager Tests";
+			path = SSLocationManagerTests;
+			sourceTree = "<group>";
+		};
+		99C0990818EF54E000F69923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C0990918EF54E000F69923 /* SSLocationManagerTests-Info.plist */,
+				99C0990A18EF54E000F69923 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C0991918EF550F00F69923 /* SSLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				99C0991D18EF57EC00F69923 /* CLLocationManager+SSLocation.h */,
+				99C0991E18EF57EC00F69923 /* CLLocationManager+SSLocation.m */,
+			);
+			name = SSLocationManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C098DE18EF54E000F69923 /* SSLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C0991118EF54E000F69923 /* Build configuration list for PBXNativeTarget "SSLocationManager" */;
+			buildPhases = (
+				99C098DB18EF54E000F69923 /* Sources */,
+				99C098DC18EF54E000F69923 /* Frameworks */,
+				99C098DD18EF54E000F69923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLocationManager;
+			productName = SSLocationManager;
+			productReference = 99C098DF18EF54E000F69923 /* SSLocationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C098FF18EF54E000F69923 /* SSLocationManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C0991418EF54E000F69923 /* Build configuration list for PBXNativeTarget "SSLocationManagerTests" */;
+			buildPhases = (
+				99C098FC18EF54E000F69923 /* Sources */,
+				99C098FD18EF54E000F69923 /* Frameworks */,
+				99C098FE18EF54E000F69923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C0990618EF54E000F69923 /* PBXTargetDependency */,
+			);
+			name = SSLocationManagerTests;
+			productName = SSLocationManagerTests;
+			productReference = 99C0990018EF54E000F69923 /* SSLocationManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C098D718EF54E000F69923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sam Spencer";
+				TargetAttributes = {
+					99C098FF18EF54E000F69923 = {
+						TestTargetID = 99C098DE18EF54E000F69923;
+					};
+				};
+			};
+			buildConfigurationList = 99C098DA18EF54E000F69923 /* Build configuration list for PBXProject "SSLocationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C098D618EF54E000F69923;
+			productRefGroup = 99C098E018EF54E000F69923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C098DE18EF54E000F69923 /* SSLocationManager */,
+				99C098FF18EF54E000F69923 /* SSLocationManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C098DD18EF54E000F69923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C098FB18EF54E000F69923 /* Images.xcassets in Resources */,
+				99C098ED18EF54E000F69923 /* InfoPlist.strings in Resources */,
+				99C098F618EF54E000F69923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C098FE18EF54E000F69923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0990C18EF54E000F69923 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C098DB18EF54E000F69923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0991F18EF57EC00F69923 /* CLLocationManager+SSLocation.m in Sources */,
+				99C098F918EF54E000F69923 /* SSViewController.m in Sources */,
+				99C098F318EF54E000F69923 /* SSAppDelegate.m in Sources */,
+				99C098EF18EF54E000F69923 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C098FC18EF54E000F69923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0990E18EF54E000F69923 /* SSLocationManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C0990618EF54E000F69923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C098DE18EF54E000F69923 /* SSLocationManager */;
+			targetProxy = 99C0990518EF54E000F69923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99C098EB18EF54E000F69923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C098EC18EF54E000F69923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99C098F418EF54E000F69923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C098F518EF54E000F69923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99C0990A18EF54E000F69923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C0990B18EF54E000F69923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C0990F18EF54E000F69923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99C0991018EF54E000F69923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C0991218EF54E000F69923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLocationManager/SSLocationManager-Prefix.pch";
+				INFOPLIST_FILE = "SSLocationManager/SSLocationManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99C0991318EF54E000F69923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLocationManager/SSLocationManager-Prefix.pch";
+				INFOPLIST_FILE = "SSLocationManager/SSLocationManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99C0991518EF54E000F69923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSLocationManager.app/SSLocationManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLocationManager/SSLocationManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSLocationManagerTests/SSLocationManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99C0991618EF54E000F69923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSLocationManager.app/SSLocationManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLocationManager/SSLocationManager-Prefix.pch";
+				INFOPLIST_FILE = "SSLocationManagerTests/SSLocationManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C098DA18EF54E000F69923 /* Build configuration list for PBXProject "SSLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C0990F18EF54E000F69923 /* Debug */,
+				99C0991018EF54E000F69923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C0991118EF54E000F69923 /* Build configuration list for PBXNativeTarget "SSLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C0991218EF54E000F69923 /* Debug */,
+				99C0991318EF54E000F69923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C0991418EF54E000F69923 /* Build configuration list for PBXNativeTarget "SSLocationManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C0991518EF54E000F69923 /* Debug */,
+				99C0991618EF54E000F69923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C098D718EF54E000F69923 /* Project object */;
+}

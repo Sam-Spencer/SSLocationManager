@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F06F79AF-2D59-438C-B327-BFD564979DAA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SSLocationManager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A34F613-54A7-4920-8EAC-59BE4859E19C</key>
+		<string>https://github.com/Sam-Spencer/SSLocationManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SSLocationManager/SSLocationManager.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A34F613-54A7-4920-8EAC-59BE4859E19C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sam-Spencer/SSLocationManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A34F613-54A7-4920-8EAC-59BE4859E19C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A34F613-54A7-4920-8EAC-59BE4859E19C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SSLocationManager</string>
+		</dict>
+	</array>
+</dict>
+</plist>
